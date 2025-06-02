@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
+      <i class='bx bx-menu' id="menu-icon"></i>
+  
+      <nav class="navbar" id="mobile-menu">
+        <i class='bx bx-x' id="close-icon"></i>        
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#Skills">Skills</a>
+        <a href="#portfolio">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+    
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Vedant Vyas</h1>
+        <h3>And I'm a <span class="text"></span></h3> 
+        <p>I am a Passionate Computer Science Engineering student currently pursuing a degree in Artificial Intelligence and Machine Learning at VIT Bhopal University.</p>
+        <div class="home-sci">
+          <a href="https://www.linkedin.com/in/vedant-vyas-5172a028a"><i class='bx bxl-linkedin'></i></a>
+          <a href="https://github.com/Vedant417"><i class='bx bxl-github'></i></a>
+          <a href="https://www.instagram.com/.__vedant/profilecard/?igsh=MW5hbmZpd2E1eGRoag=="><i class='bx bxl-instagram'></i></a>
+          <a href="https://wa.me/qr/7TRDSMK36WSPB1"><i class='bx bxl-whatsapp'></i></a>
+        </div>
+        <a href="#about" class="btn-box">More About Me</a>
+      </div>
+      <span class="home-imgHover"></span>
+    </section>
+    
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="Images/WhatsApp Image 2025-05-06 at 13.45.14_91dfd6b0.jpg" alt="Profile Photo">
+      </div>
+      <div class="about-text">
+        <h2>About <span>Me</span></h2>
+        <h4>Full Stack Developer!</h4>
+        <p>I'm a Computer Science Engineering student at VIT Bhopal, specializing in AI and ML. I have strong skills in Python, C++, and web development, 
+        with experience building user-friendly web apps. I've participated in technical competitions and enjoy video/content editing, combining creativity with technical expertise.</p>
+      <div class="tab-titles">
+        <p class="tab-links active-link" oneclick="opentab('education')">Education</p>
+        <p class="tab-links" oneclick="opentab('certificate')">Certificates</p>
+      </div>
+      <div class="tab-contents active-tab" id="education">
+        <ul>
+          <li><span class="highlight">2023-Current</span><br>VIT Bhopal University<br>B-tech CSE AIML | 7.93 CGPA</li>
+          <li><span class="highlight">2021-2022</span><br>Swarajaya Senior Secondary<br>Class XII Science (PCM) | 77.4%</li>
+          <li><span class="highlight">2010-2020</span><br>City International School<br>Class X | 88%</li>
+        </ul>  
+      </div>
+      <div class="tab-contents" id="certificate">
+        <ul>
+          <li><span class="highlight">NPTEL Cloud Computing Online Certification</span><br>Issued on 23th May 2025</li>
+          <li><span class="highlight">Problem Solving (Basic) by HackerRank</span><br>Issued on 11th December 2024</li>
+          <li><span class="highlight">Promotional Video using Canva by Coursera</span><br>Issued on 19th November 2024</li>
+          <li><span class="highlight">Fundamentals of AI and ML by Vityarthi</span><br>Issued on 3rd May 2024</li>
+          <li><span class="highlight">Python Essentials by Vityarthi</span><br>Issued on 13th December 2023</li>
+          <li><span class="highlight">Python (Basic) by HackerRank</span><br>Issued on 13th December 2023</li>
+          <li><span class="highlight">MATLAB Onramp by MathWorks</span><br>Issued on 19th August 2023</li>       
+        </ul>  
+      </div>
+    </section>
+    
+    <section>
+      <div id="services">
+        <div class="container">
+          <h1 class="sub-title">My <span>Services</span></h1>
+          <div class="services-list">
+            <div>
+              <i class='bx bx-code bx-rotate-180' style='color:#00eeff' ></i>
+              <h2>Front-end Web Development</h2>
+              <p>I'm a passionate Frontend Developer skilled in creating responsive, user-friendly web interfaces using HTML, CSS, JavaScript, and modern frameworks. 
+                 I focus on clean design, accessibility, and delivering seamless user experiences across devices.</p>
+                 <a href="#home" class="read">learn more</a>
+            </div>
+            <div>
+              <i class='bx bxs-data' style='color:#00eeff'></i>
+              <h2>Back-end Web Development</h2>
+              <p>I'm a backend developer skilled in building robust, scalable server-side applications using Python and frameworks like Flask or Django. I focus on designing 
+                efficient APIs, managing databases, ensuring security, and integrating seamlessly with frontend systems to deliver complete web solutions.</p>
+                 <a href="#home" class="read">learn more</a>
+            </div>
+            <div>
+              <i class='bx bxs-terminal' style='color:#00eeff'  ></i>
+              <h2>AI/ML Model Development</h2>
+              <p>I specialize in developing AI and Machine Learning models using Python libraries such as scikit-learn, TensorFlow, and Keras. I focus on solving 
+                real-world problems through data preprocessing, model training, evaluation, and deployment for intelligent, data-driven applications.</p>
+                 <a href="#home" class="read">learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <h1 class="sub-title">My <span>Skills</span></h1>
+    
+    <section>
+      <div class="container1" id="Skills">
+        <h1 class="heading1">Teachnical Skills</h1>
+        <div class="Tachnical-bars">
+          <div class="bar"><i class='bx bxl-html5' style='color:#c95d2e'></i>
+            <div class="info"><span>HTML</span></div>
+            <div class="progress-line html">
+              <span style="width: 90%;" data-percent="90%"></span>
+            </div>
+          </div>
+          
+          <div class="bar"><i class='bx bxl-css3' style='color:#147bbc'></i>
+            <div class="info"><span>CSS</span></div>
+            <div class="progress-line css">
+              <span style="width: 75%;" data-percent="85%"></span>
+            </div>
+          </div>
+          
+          <div class="bar"><i class='bx bxl-javascript' style='color:#b0bc1e'></i>
+            <div class="info"><span>JavaScript</span></div>
+            <div class="progress-line javascript">
+              <span style="width: 40%;" data-percent="75%"></span>
+            </div>
+          </div>
+          
+          <div class="bar"><i class='bx bxl-python' style='color:#c32ec9'></i>
+            <div class="info"><span>Python</span></div>
+            <div class="progress-line python">
+              <span style="width: 85%;" data-percent="80%"></span>
+            </div>
+          </div>
+          
+          <div class="bar"><i class='bx bxl-c-plus-plus' style='color:#69bcbc'></i>
+            <div class="info"><span>C++</span></div>
+            <div class="progress-line c">
+              <span style="width: 70%;" data-percent="70%"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="container1">
+        <h1 class="heading1">Professional Skills</h1>
+        <div class="radial-bars">
+          
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+              <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+            </svg>
+            <div class="percentage">95%</div>
+            <div class="text">Creativity</div>
+          </div>
+          
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+              <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+            </svg>
+            <div class="percentage">85%</div>
+            <div class="text">Communication</div>
+          </div>
+          
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+              <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+            </svg>
+            <div class="percentage">75%</div>
+            <div class="text">Problem Solving</div>
+          </div>
+          
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+              <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+            </svg>
+            <div class="percentage">90%</div>
+            <div class="text">TeamWork</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My <span>Projects</span></h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="Images/Screenshot 2025-05-28 141234.png">
+            <div class="layer">
+              <h3>NovaChat (AI Chatbot)</h3>
+              <p>This chatbot is designed to provide users with a variety of helpful features, such as telling the current time for any location around the world, delivering the latest news updates, showing real-time weather information, and assisting with coding-related questions.</p>
+              <a href="https://github.com/Vedant417/ai-chatbot"><i class='bx bx-link-external' style='color:#00eeff' ></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="Images/download.png">
+            <div class="layer">
+              <h3>VIT Helpsphere Project</h3>
+              <p>A hostel complaint system built using Node.js, MongoDB & Python. Students can report issues with photos for faster resolution. My first full-stack team project.</p>
+              <a href="https://github.com/Vedant417/VIT_Helpsphere_Project"><i class='bx bx-link-external' style='color:#00eeff' ></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="Images/istockphoto-1316473419-612x612.jpg">
+            <div class="layer">
+              <h3>Mother's Day Blog</h3>
+              <p>A tribute blog created with Figma under #DrGViswanathan Challenge. Emotional design celebrating motherhood and creative expression through visual storytelling.</p>
+              <a href="https://github.com/Vedant417/Mother-s-Day-Blog"><i class='bx bx-link-external' style='color:#00eeff' ></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="https://github.com/Vedant417" class="see-more">See More</a>
+      </div>
+    </div>
+    
+    <div id="contact">
+      <div class="container">
+        <h1 class="sub-title centered-heading">Contact <span>Me</span></h1>
+        <div class="row">
+          <div class="contact-left">
+            <p><i class='bx bxs-envelope' style='color:#00eeff'></i> vedantvyas77@gmail.com</p>
+            <p><i class='bx bxs-phone' style='color:#00eeff'></i> 8103662207</p>
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/vedant-vyas-5172a028a"><i class='bx bxl-linkedin'></i></a>
+              <a href="https://github.com/Vedant417"><i class='bx bxl-github'></i></a>
+              <a href="https://www.instagram.com/.__vedant/profilecard/?igsh=MW5hbmZpd2E1eGRoag=="><i class='bx bxl-instagram'></i></a>
+              <a href="https://wa.me/qr/7TRDSMK36WSPB1"><i class='bx bxl-whatsapp'></i></a>
+            </div>
+            <a href="Images/Vedant Vyas Resume.pdf" download class="btn btn2">Download Resume</a>
+          </div>
+          
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="Email" placeholder="Your Email" required>
+              <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div> 
+      <div class="copyright">
+        <p>Copyright ©. Made by Vedant Vyas </p>
+      </div>   
+    </div>
+    
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const typed = new Typed(".text", {
+        strings: ["Frontend Developer", "Backend Developer", "Web Developer", "Video Editor"],
+        typeSpeed: 50,
+        backSpeed: 55,
+        loop: true
+      });
+    });
+    </script>
+    
+    <script>
+    const tabLinks = document.querySelectorAll(".tab-links");
+    const tabContents = document.querySelectorAll(".tab-contents");
+    
+    tabLinks.forEach((tab, index) => {
+      tab.addEventListener("click", () => {
+        tabLinks.forEach(link => link.classList.remove("active-link"));
+        tabContents.forEach(content => content.classList.remove("active-tab"));
+        tab.classList.add("active-link");
+        tabContents[index].classList.add("active-tab");
+      });
+    });
+    </script>
+  
+    <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzgkDQPqnpRtFrXZVdtajl72gbP7qV9jo1ug9buemvIVK5tjk1v9aiD-7T1-YGNO680/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message Sent Successfully!"
+        setTimeout(function(){
+          msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+    })
+    </script>
+
+    <script>
+    const menuIcon = document.getElementById("menu-icon");
+    const closeIcon = document.getElementById("close-icon");
+    const mobileMenu = document.getElementById("mobile-menu");
+
+    menuIcon.addEventListener("click", () => {
+      mobileMenu.classList.add("show");
+    });
+
+    closeIcon.addEventListener("click", () => {
+      mobileMenu.classList.remove("show");
+    });
+    </script>
+    
+  </body>
+</html>
