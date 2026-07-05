@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vedant Vyas | AI & Full Stack Engineer</title>
+
+  <!-- SEO Meta Tags -->
+  <meta name="description"
+    content="Portfolio of Vedant Vyas, an AI & Full Stack Engineer specializing in FastAPI, React, Large Language Models (LLMs), and Computer Science AIML.">
+  <meta name="keywords"
+    content="Vedant Vyas, AI Engineer, Full Stack Developer, LLM Developer, FastAPI, React, Python, VIT Bhopal, MediaShipper">
+  <meta name="author" content="Vedant Vyas">
+
+  <!-- Style Sheets -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- FontAwesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+  <canvas id="hero-canvas"></canvas>
+
+  <!-- Background glow circles -->
+  <div class="glow-blur" style="top: 10%; left: 10%;"></div>
+  <div class="glow-blur" style="top: 40%; right: 5%;"></div>
+  <div class="glow-blur" style="bottom: 10%; left: 15%;"></div>
+
+  <!-- Header Navigation -->
+  <header>
+    <div class="nav-container">
+      <a class="logo">Portfolio</a>
+
+      <ul class="nav-links">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education-certs">Education</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" id="theme-toggle-btn" aria-label="Toggle Theme">
+          <i class="fa-solid fa-moon moon-icon"></i>
+          <i class="fa-solid fa-sun sun-icon"></i>
+        </button>
+        <a href="#contact" class="resume-btn">Let's Talk</a>
+      </div>
+
+      <div class="burger" aria-label="Toggle Navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+
+      <div class="container">
+        <div class="hero-content reveal">
+          <span class="hero-tag">Welcome to my space</span>
+          <h1 class="hero-title">Hi, I'm <span class="highlight">Vedant Vyas</span></h1>
+          <h2 class="hero-subtitle"><span id="typewriter-text"></span></h2>
+          <p class="hero-desc">
+            AI and Full Stack Engineer with hands-on experience building enterprise AI applications. I specialize in
+            integrating Large Language Models (LLMs) like Gemini, developing scalable FastAPI backends, and designing
+            modern React user interfaces.
+          </p>
+          <div class="hero-ctas">
+            <a href="#projects" class="btn-primary">View My Work <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#contact" class="btn-secondary">Get In Touch <i class="fa-solid fa-envelope"></i></a>
+          </div>
+          <div class="hero-socials">
+            <a href="https://github.com/Vedant417" target="_blank" rel="noopener noreferrer" class="social-icon"
+              aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/vedant-vyas-5172a028a" target="_blank" rel="noopener noreferrer"
+              class="social-icon" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="mailto:vedantvyas77@gmail.com" class="social-icon" aria-label="Email"><i
+                class="fa-solid fa-envelope"></i></a>
+            <a href="tel:+918103662207" class="social-icon" aria-label="Phone"><i class="fa-solid fa-phone"></i></a>
+          </div>
+        </div>
+
+        <div class="hero-image-wrapper reveal">
+          <div class="hero-image-container">
+            <div class="hero-image-inner">
+              <img src="assets/profile.jpg" alt="Vedant Vyas Portrait" class="hero-img">
+              <div class="hero-image-overlay">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title reveal">About Me</h2>
+        <div class="about-grid">
+          <div class="about-details reveal">
+            <h3>Pioneering AI-Driven Software Engineering</h3>
+            <p>
+              I am currently pursuing my B.Tech in Computer Science and Engineering with a specialization in Artificial
+              Intelligence and Machine Learning (AIML) at VIT Bhopal University. I am passionate about engineering
+              solutions that bridge the gap between complex artificial intelligence pipelines and clean, scalable web
+              applications.
+            </p>
+            <p>
+              My professional journey includes building enterprise-level modules for cultural analysis, licensing, and
+              workflow automation. I enjoy working across the stack, deploying containerized API structures, handling
+              database relations (MongoDB, MySQL), and crafting interactive frontend states.
+            </p>
+
+            <div class="about-highlights">
+              <div class="highlight-box">
+                <h4>7.86</h4>
+                <p>B.Tech CGPA</p>
+              </div>
+              <div class="highlight-box">
+                <h4>2+</h4>
+                <p>Internships</p>
+              </div>
+              <div class="highlight-box">
+                <h4>5+</h4>
+                <p>AI Projects</p>
+              </div>
+              <div class="highlight-box">
+                <h4>5+</h4>
+                <p>Certificates</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-visuals reveal">
+            <!-- Decorative Visual Terminal Mock -->
+            <div class="highlight-box"
+              style="font-family: var(--font-mono); padding: 2rem; background: var(--bg-secondary); border-radius: 16px;">
+              <div style="display: flex; gap: 6px; margin-bottom: 1.5rem;">
+                <span
+                  style="width: 12px; height: 12px; border-radius: 50%; background: #ef4444; display: inline-block;"></span>
+                <span
+                  style="width: 12px; height: 12px; border-radius: 50%; background: #fbbf24; display: inline-block;"></span>
+                <span
+                  style="width: 12px; height: 12px; border-radius: 50%; background: #10b981; display: inline-block;"></span>
+              </div>
+              <p style="color: var(--accent-color); margin-bottom: 0.5rem;">&gt; cat summary.json</p>
+              <p style="color: var(--text-secondary); margin-left: 1rem; margin-bottom: 1rem; font-size: 0.9rem;">
+                {<br>
+                &nbsp;&nbsp;"name": "Vedant Vyas",<br>
+                &nbsp;&nbsp;"location": "Pune, Maharashtra",<br>
+                &nbsp;&nbsp;"education": "VIT Bhopal University",<br>
+                &nbsp;&nbsp;"discipline": "CSE (AIML)",<br>
+                &nbsp;&nbsp;"interests": ["LLMs", "AI Agents", "Full-Stack Development", "Computer Vision", "Developer
+                Tools"]<br>
+                }
+              </p>
+              <p style="color: var(--accent-color); margin-bottom: 0.5rem;">&gt; python -c "import vedant;
+                print(vedant.capabilities)"</p>
+              <p style="color: var(--text-secondary); margin-left: 1rem; font-size: 0.9rem;">
+                ['Problem Solving', 'Rapid Learning', 'Product Thinking', 'Creative Experimentation']
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education & Certifications Section -->
+    <section id="education-certs">
+      <div class="container">
+        <h2 class="section-title reveal">Education & Certifications</h2>
+
+        <div class="cert-edu-grid">
+
+          <!-- Education Column -->
+          <div class="reveal">
+            <h3><i class="fa-solid fa-graduation-cap" style="color: var(--primary-color);"></i> Education</h3>
+
+            <div class="edu-timeline">
+              <!-- Item 1 -->
+              <div class="edu-card">
+                <div class="edu-dot"></div>
+                <div class="edu-info">
+                  <h4>B.Tech in Computer Science & Engineering (AIML)</h4>
+                  <div class="edu-school">VIT Bhopal University</div>
+                  <div class="edu-meta">
+                    <span>2023 - 2027</span>
+                    <span>Bhopal, MP</span>
+                    <span class="edu-cgpa">CGPA: 7.86</span>
+                  </div>
+                  <div class="edu-desc">Specialized training in Artificial Intelligence, Machine Learning, Deep
+                    Learning, and Core Data Systems.</div>
+                </div>
+              </div>
+
+              <!-- Item 2 -->
+              <div class="edu-card">
+                <div class="edu-dot"></div>
+                <div class="edu-info">
+                  <h4>Class 12th Senior Secondary Education</h4>
+                  <div class="edu-school">Swarajya Senior Secondary School</div>
+                  <div class="edu-meta">
+                    <span>2022 - 2023</span>
+                    <span>Pune, MH</span>
+                    <span class="edu-cgpa">Percentage: 77.4%</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Item 3 -->
+              <div class="edu-card">
+                <div class="edu-dot"></div>
+                <div class="edu-info">
+                  <h4>Class 10th Secondary Education</h4>
+                  <div class="edu-school">City International School</div>
+                  <div class="edu-meta">
+                    <span>2020 - 2021</span>
+                    <span>Pune, MH</span>
+                    <span class="edu-cgpa">Percentage: 88.0%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Certifications Column -->
+          <div class="reveal">
+            <h3><i class="fa-solid fa-award" style="color: var(--primary-color);"></i> Certifications</h3>
+
+            <div class="certs-grid">
+
+              <div class="cert-card">
+                <div class="cert-icon"><i class="fa-solid fa-cloud"></i></div>
+                <div class="cert-details">
+                  <h4>NPTEL Internet of Things Certification</h4>
+                  <p>Issued by NPTEL</p>
+                  <span>28th May 2026</span>
+                </div>
+              </div>
+
+              <!-- Cert 1 -->
+              <div class="cert-card">
+                <div class="cert-icon"><i class="fa-solid fa-eye"></i></div>
+                <div class="cert-details">
+                  <h4>Computer Vision Online Certification</h4>
+                  <p>Issued by Vityarthi</p>
+                  <span>1st April 2026</span>
+                </div>
+              </div>
+
+              <!-- Cert 2 -->
+              <div class="cert-card">
+                <div class="cert-icon"><i class="fa-solid fa-brain"></i></div>
+                <div class="cert-details">
+                  <h4>Applied Machine Learning in Python</h4>
+                  <p>Issued by Coursera</p>
+                  <span>17th November 2025</span>
+                </div>
+              </div>
+
+              <!-- Cert 3 -->
+              <div class="cert-card">
+                <div class="cert-icon"><i class="fa-brands fa-aws"></i></div>
+                <div class="cert-details">
+                  <h4>AWS Certified Developer Associate</h4>
+                  <p>Infosys Springboard Certification</p>
+                  <span>6th June 2025</span>
+                </div>
+              </div>
+
+              <!-- Cert 4 -->
+              <div class="cert-card">
+                <div class="cert-icon"><i class="fa-solid fa-cloud"></i></div>
+                <div class="cert-details">
+                  <h4>NPTEL Cloud Computing Certification</h4>
+                  <p>Issued by NPTEL</p>
+                  <span>23rd May 2025</span>
+                </div>
+              </div>
+
+              <!-- Cert 5 -->
+              <div class="cert-card">
+                <div class="cert-icon"><i class="fa-solid fa-square-check"></i></div>
+                <div class="cert-details">
+                  <h4>Problem Solving (Basic) Certificate</h4>
+                  <p>Issued by HackerRank</p>
+                  <span>11th December 2024</span>
+                </div>
+              </div>
+
+              <!-- Cert 6 -->
+              <div class="cert-card">
+                <div class="cert-icon"><i class="fa-solid fa-network-wired"></i></div>
+                <div class="cert-details">
+                  <h4>Fundamentals of AI and ML</h4>
+                  <p>Issued by Vityarthi</p>
+                  <span>3rd May 2024</span>
+                </div>
+              </div>
+
+              <!-- Cert 7 -->
+              <div class="cert-card">
+                <div class="cert-icon"><i class="fa-brands fa-python"></i></div>
+                <div class="cert-details">
+                  <h4>Python (Basic) Certificate</h4>
+                  <p>Issued by HackerRank</p>
+                  <span>13th December 2023</span>
+                </div>
+              </div>
+
+              <!-- Cert 8 -->
+              <div class="cert-card">
+                <div class="cert-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                <div class="cert-details">
+                  <h4>Python Essentials Certificate</h4>
+                  <p>Issued by Vityarthi</p>
+                  <span>13th December 2023</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+      <div class="container">
+        <h2 class="section-title reveal">Professional Experience</h2>
+
+        <div class="timeline reveal">
+
+          <!-- Experience Card 1 -->
+          <div class="timeline-item">
+            <div class="timeline-dot"><i class="fa-solid fa-code"></i></div>
+            <div class="timeline-content">
+              <div class="timeline-info-col">
+                <h3>Full Stack Developer Intern</h3>
+                <div class="timeline-company">Entertainment Technologists Dev Corp</div>
+                <div class="timeline-meta">
+                  <span class="timeline-date">Oct 2025 - Present</span>
+                  <span class="timeline-badge remote">Remote</span>
+                </div>
+              </div>
+              <div class="timeline-desc-col">
+                <ul>
+                  <li>Developed AI-powered Cultural Analysis and Pricing modules for MediaShipper’s enterprise platform.
+                  </li>
+                  <li>Built end-to-end REST APIs using FastAPI and integrated them with React and Node.js applications.
+                  </li>
+                  <li>Integrated Gemini LLMs for content analysis, recommendation, and workflow automation.</li>
+                  <li>Worked on full-stack implementation including backend APIs, frontend integration, MongoDB database
+                    structures, and production-level debugging.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience Card 2 -->
+          <div class="timeline-item">
+            <div class="timeline-dot"><i class="fa-solid fa-chart-simple"></i></div>
+            <div class="timeline-content">
+              <div class="timeline-info-col">
+                <h3>Data Analyst Intern</h3>
+                <div class="timeline-company">VOIS</div>
+                <div class="timeline-meta">
+                  <span class="timeline-date">Sep 2025 - Oct 2025</span>
+                  <span class="timeline-badge remote">Remote</span>
+                </div>
+              </div>
+              <div class="timeline-desc-col">
+                <ul>
+                  <li>Completed a intensive 4-week Conversational Data Analytics Internship centered on LLM systems and
+                    real-world AI applications.</li>
+                  <li>Collaborated on building a conversational AI project under industry mentorship, strengthening core
+                    data processing and analytics capabilities.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience Card 3 -->
+          <div class="timeline-item">
+            <div class="timeline-dot"><i class="fa-solid fa-laptop-code"></i></div>
+            <div class="timeline-content">
+              <div class="timeline-info-col">
+                <h3>Frontend Developer Intern</h3>
+                <div class="timeline-company">Edunet Foundation</div>
+                <div class="timeline-meta">
+                  <span class="timeline-date">Aug 2025 - Oct 2025</span>
+                  <span class="timeline-badge remote">Remote</span>
+                </div>
+              </div>
+              <div class="timeline-desc-col">
+                <ul>
+                  <li>Completed a comprehensive 6-week Frontend Developer internship targeting real-world application
+                    practices.</li>
+                  <li>Gained hands-on experience building, prototyping, and improving interactive, user-facing
+                    interfaces.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="container">
+        <h2 class="section-title reveal">Featured Projects</h2>
+
+        <div class="projects-grid reveal">
+
+          <!-- Project 1 -->
+          <div class="project-card horizontal">
+            <div class="project-cover">
+              <img src="assets/Cultural Analysis.png" alt="Cultural Analysis Platform" class="project-image">
+            </div>
+            <div class="project-info">
+              <div class="project-tags">
+                <span class="tag">React</span>
+                <span class="tag">FastAPI</span>
+                <span class="tag">Gemini API</span>
+                <span class="tag">TMDB API</span>
+              </div>
+              <h3>Cultural Analysis Platform</h3>
+              <div class="project-desc">
+                <ul>
+                  <li>Developed an AI-powered Cultural Analysis platform to evaluate content compatibility across
+                    multiple global regions using LLM-based reasoning.</li>
+                  <li>Built scalable FastAPI backend services and integrated them with React frontend and MongoDB for
+                    enterprise workflow automation.</li>
+                  <li>Implemented REST API integrations and optimized frontend-backend communication for production
+                    deployment within the MediaShipper platform.</li>
+                </ul>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/Vedant417/Cultural-Alignment" target="_blank" rel="noopener noreferrer"
+                  class="project-link-btn">
+                  <i class="fa-brands fa-github"></i> Source Code
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card horizontal">
+            <div class="project-cover">
+              <img src="assets/Pricing Management.png" alt="Pricing Management Platform" class="project-image">
+            </div>
+            <div class="project-info">
+              <div class="project-tags">
+                <span class="tag">FastAPI</span>
+                <span class="tag">Python</span>
+                <span class="tag">TMDB API</span>
+                <span class="tag">OMDb API</span>
+              </div>
+              <h3>AI Pricing Management Platform</h3>
+              <div class="project-desc">
+                <ul>
+                  <li>Built an AI-powered content licensing pricing platform using LLMs for multi-region content
+                    evaluation.</li>
+                  <li>Integrated multiple third-party APIs including TMDB and OMDb for automated licensing and pricing
+                    recommendations.</li>
+                  <li>Built scalable REST APIs consumed by enterprise frontend structures.</li>
+                </ul>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/Vedant417/AI-Pricing-Management" target="_blank" rel="noopener noreferrer"
+                  class="project-link-btn">
+                  <i class="fa-brands fa-github"></i> Source Code
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project-card horizontal">
+            <div class="project-cover">
+              <img src="assets/Emotinal Analysis.png" alt="Emotional Analysis Platform" class="project-image">
+            </div>
+            <div class="project-info">
+              <div class="project-tags">
+                <span class="tag">React</span>
+                <span class="tag">FastAPI</span>
+                <span class="tag">Python</span>
+                <span class="tag">LLM</span>
+              </div>
+              <h3>Emotional Analysis Platform</h3>
+              <div class="project-desc">
+                <ul>
+                  <li>Built an AI-powered emotional analysis platform to identify audience sentiment and emotional
+                    patterns in media content using LLMs.</li>
+                  <li>Developed scalable backend APIs and integrated AI-generated insights into enterprise dashboards.
+                  </li>
+                  <li>Evaluated audience engagement and commercial potential using Large Language Models.</li>
+                </ul>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/Vedant417/Emotinal-Intelligence" target="_blank" rel="noopener noreferrer"
+                  class="project-link-btn">
+                  <i class="fa-brands fa-github"></i> Source Code
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- See More Button Wrap -->
+        <div class="see-more-wrap reveal">
+          <a href="https://github.com/Vedant417?tab=repositories" target="_blank" rel="noopener noreferrer"
+            class="btn-see-more">
+            See More Projects <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <div class="container">
+        <h2 class="section-title reveal">Technical Skills</h2>
+
+        <div class="skills-grid reveal">
+
+          <!-- Category 1 -->
+          <div class="skills-category">
+            <h3><i class="fa-solid fa-laptop-code"></i> Programming Languages</h3>
+            <div class="skills-list">
+              <span class="skill-tag"><i class="fa-brands fa-python" style="color:#3776ab;"></i> Python</span>
+              <span class="skill-tag"><i class="fa-brands fa-js" style="color:#f7df1e;"></i> JavaScript</span>
+              <span class="skill-tag"><i class="fa-brands fa-html5" style="color:#e34c26;"></i> HTML5</span>
+              <span class="skill-tag"><i class="fa-brands fa-css3-alt" style="color:#264de4;"></i> CSS3</span>
+              <span class="skill-tag"><i class="fa-solid fa-code" style="color:#00599c;"></i> C++</span>
+              <span class="skill-tag"><i class="fa-solid fa-database" style="color:#00758f;"></i> SQL</span>
+            </div>
+          </div>
+
+          <!-- Category 2 -->
+          <div class="skills-category">
+            <h3><i class="fa-solid fa-brain"></i> AI & Machine Learning</h3>
+            <div class="skills-list">
+              <span class="skill-tag"><i class="fa-solid fa-robot"></i> LLMs</span>
+              <span class="skill-tag"><i class="fa-solid fa-wand-magic-sparkles"></i> Gemini API</span>
+              <span class="skill-tag"><i class="fa-solid fa-language"></i> NLP</span>
+              <span class="skill-tag"><i class="fa-solid fa-globe"></i> Semantic Analysis</span>
+              <span class="skill-tag"><i class="fa-solid fa-eye"></i> Computer Vision</span>
+              <span class="skill-tag"><i class="fa-solid fa-brain"></i> Deep Learning</span>
+              <span class="skill-tag"><i class="fa-solid fa-repeat"></i> Reinforcement Learning</span>
+              <span class="skill-tag"><i class="fa-solid fa-fire"></i> PyTorch</span>
+              <span class="skill-tag"><i class="fa-solid fa-table"></i> Pandas</span>
+              <span class="skill-tag"><i class="fa-solid fa-calculator"></i> NumPy</span>
+            </div>
+          </div>
+
+          <!-- Category 3 -->
+          <div class="skills-category">
+            <h3><i class="fa-solid fa-server"></i> Backend Engineering</h3>
+            <div class="skills-list">
+              <span class="skill-tag"><i class="fa-solid fa-bolt"></i> FastAPI</span>
+              <span class="skill-tag"><i class="fa-brands fa-node-js"></i> Node.js</span>
+              <span class="skill-tag"><i class="fa-solid fa-server"></i> Express.js</span>
+              <span class="skill-tag"><i class="fa-solid fa-cloud"></i> REST APIs</span>
+              <span class="skill-tag"><i class="fa-solid fa-leaf"></i> MongoDB</span>
+              <span class="skill-tag"><i class="fa-solid fa-database"></i> MySQL</span>
+            </div>
+          </div>
+
+          <!-- Category 4 -->
+          <div class="skills-category">
+            <h3><i class="fa-solid fa-window-restore"></i> Frontend Engineering</h3>
+            <div class="skills-list">
+              <span class="skill-tag"><i class="fa-brands fa-react"></i> React.js</span>
+              <span class="skill-tag"><i class="fa-solid fa-circle-nodes"></i> Next.js</span>
+              <span class="skill-tag"><i class="fa-brands fa-html5"></i> HTML5</span>
+              <span class="skill-tag"><i class="fa-brands fa-css3-alt"></i> CSS3</span>
+              <span class="skill-tag"><i class="fa-brands fa-js"></i> TypeScript</span>
+            </div>
+          </div>
+
+          <!-- Category 5 -->
+          <div class="skills-category">
+            <h3><i class="fa-solid fa-toolbox"></i> Developer Tools</h3>
+            <div class="skills-list">
+              <span class="skill-tag"><i class="fa-brands fa-git-alt"></i> Git</span>
+              <span class="skill-tag"><i class="fa-brands fa-github"></i> GitHub</span>
+              <span class="skill-tag"><i class="fa-brands fa-aws"></i> AWS</span>
+              <span class="skill-tag"><i class="fa-solid fa-paper-plane"></i> Postman</span>
+              <span class="skill-tag"><i class="fa-solid fa-code"></i> VS Code</span>
+              <span class="skill-tag"><i class="fa-solid fa-book"></i> Jupyter</span>
+              <span class="skill-tag"><i class="fa-brands fa-google"></i> Colab</span>
+            </div>
+          </div>
+
+          <!-- Category 6 -->
+          <div class="skills-category">
+            <h3><i class="fa-solid fa-book"></i> Core Computer Science</h3>
+            <div class="skills-list">
+              <span class="skill-tag"><i class="fa-solid fa-code-branch"></i> DSA</span>
+              <span class="skill-tag"><i class="fa-solid fa-cube"></i> OOP</span>
+              <span class="skill-tag"><i class="fa-solid fa-desktop"></i> Operating Systems</span>
+              <span class="skill-tag"><i class="fa-solid fa-database"></i> DBMS</span>
+              <span class="skill-tag"><i class="fa-solid fa-network-wired"></i> Computer Networks</span>
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title reveal">Get In Touch</h2>
+
+        <div class="contact-grid">
+
+          <div class="contact-info-wrap reveal">
+            <div class="contact-intro">
+              <h3>Let's Collaborate!</h3>
+              <p>
+                Whether you have an upcoming project, are interested in recruiting me for full-stack or AI roles, or
+                just want to discuss LLMs and web engineering, feel free to drop a message.
+              </p>
+            </div>
+
+            <div class="contact-methods">
+              <!-- Method 1 -->
+              <div class="contact-card">
+                <div class="contact-card-icon"><i class="fa-solid fa-envelope"></i></div>
+                <div class="contact-card-details">
+                  <span>Email Me</span>
+                  <a href="mailto:vedantvyas77@gmail.com">vedantvyas77@gmail.com</a>
+                </div>
+              </div>
+
+              <!-- Method 2 -->
+              <div class="contact-card">
+                <div class="contact-card-icon"><i class="fa-solid fa-phone"></i></div>
+                <div class="contact-card-details">
+                  <span>Call Me</span>
+                  <a href="tel:+918103662207">+91-8103662207</a>
+                </div>
+              </div>
+
+              <!-- Method 3 -->
+              <div class="contact-card">
+                <div class="contact-card-icon"><i class="fa-solid fa-location-dot"></i></div>
+                <div class="contact-card-details">
+                  <span>Location</span>
+                  <p>Pune, Maharashtra</p>
+                </div>
+              </div>
+
+              <!-- Resume -->
+              <div class="contact-card">
+
+                <div class="contact-card-icon">
+                  <i class="fa-solid fa-file-arrow-down"></i>
+                </div>
+
+                <div class="contact-card-details">
+                  <span>RESUME</span>
+                  <a href="assets/Vedant%20Vyas%20Resume.pdf" download="Vedant Vyas Resume.pdf">
+                    Download My Resume
+                  </a>
+                </div>
+
+                <a href="assets/Vedant%20Vyas%20Resume.pdf" download="Vedant Vyas Resume.pdf" class="resume-download">
+                  <i class="fa-solid fa-download"></i>
+                </a>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- Form Wrap -->
+          <div class="reveal">
+            <form class="contact-form">
+              <div class="form-group">
+                <input type="text" id="name" class="form-control" placeholder=" " required autocomplete="name">
+                <label for="name" class="form-label">Full Name</label>
+              </div>
+
+              <div class="form-group">
+                <input type="email" id="email" class="form-control" placeholder=" " required autocomplete="email">
+                <label for="email" class="form-label">Email Address</label>
+              </div>
+
+              <div class="form-group">
+                <input type="text" id="subject" class="form-control" placeholder=" " required autocomplete="off">
+                <label for="subject" class="form-label">Subject</label>
+              </div>
+
+              <div class="form-group">
+                <textarea id="message" class="form-control" placeholder=" " required></textarea>
+                <label for="message" class="form-label">Message Details</label>
+              </div>
+
+              <button type="submit" class="btn-primary" style="width: 100%; justify-content: center; font-size: 1rem;">
+                Send Message <i class="fa-solid fa-paper-plane"></i>
+              </button>
+
+              <div class="form-status"></div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-content">
+      <div class="logo">Portfolio</div>
+      <div class="footer-socials">
+        <a href="https://github.com/Vedant417" target="_blank" rel="noopener noreferrer" class="social-icon"
+          aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/vedant-vyas-5172a028a" target="_blank" rel="noopener noreferrer"
+          class="social-icon" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="mailto:vedantvyas77@gmail.com" class="social-icon" aria-label="Email"><i
+            class="fa-solid fa-envelope"></i></a>
+      </div>
+      <p class="footer-text">
+        &copy; 2026 Vedant Vyas. Built with <span>HTML, CSS, and JavaScript</span>.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+# Vercel Ignore File
+# Ignore local development files and configuration folders
+
+.git
+.gitignore
+.vscode
+.idea
+node_modules
+*.log
+.DS_Store
+Thumbs.db
